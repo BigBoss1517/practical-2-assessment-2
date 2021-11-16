@@ -1,0 +1,47 @@
+.edit_page {
+     h1 {
+        font-family: 'black ops one', cursive;
+        font-size: 5rem;
+        text-align: center;
+        margin-top: 6rem;
+    }
+
+    .form_container {
+        div {
+            display:  flex;
+            justify-content: center;
+        }
+
+        label {
+            font-family: 'Roboto', sans-serif;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        input {
+            width: 25rem;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+    }
+
+    .form_buttons {
+        font-family: 'black ops one', cursive;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .form_buttons button {
+        background-color: white;
+        border: none;
+        padding: 0 1rem;
+    }
+
+    .form_buttons button:hover {
+        border: 2px solid black;
+    }
+
+}

@@ -1,0 +1,47 @@
+[{
+  "id": "baka9917",
+  "category": "Wages",
+  "title": "payments towards my employees",
+  "isComplete": true,
+  "startDate": "Saturday October 9th",
+  "startTime": "9:00am",
+  "endDate": "Saturday October 9th",
+  "endTime": "11:00am"
+}, {
+  "id": "177dmit8",
+  "category": "Clients",
+  "title": "Clients commissions",
+  "isComplete": false,
+  "startDate": "Monday October 4th",
+  "startTime": "11:50am",
+  "endDate": "Saturday October 9th",
+  "endTime": "TBA"
+}, {
+  "id": "mitai662",
+  "category": "Meetings",
+  "title": "Meetings with employees and clients",
+  "isComplete": true,
+  "startDate": "Monday October 4th",
+  "startTime": "7:00am",
+  "endDate": "Thursday October 7th",
+  "endTime": "5:50pm"
+}, {
+  "id": "cpsc1012",
+        "category": "Projects",
+        "title": "Current projects commissioned by clients",
+        "isComplete": false,
+        "startDate": "Monday October 4th",
+        "startTime": "11:50am",
+        "endDate": "Tuesday November 9th",
+        "endTime": "TBA"
+}, {
+  "id": "115nani7",
+        "category": "Daily Chores",
+        "title": "Tasks that must be peformed every day",
+        "isComplete": true,
+        "startDate": "Monday October 4th",
+        "startTime": "7:30am",
+        "endDate": "Monday October 4th",
+        "endTime": "9:00pm"
+} ]
+ 

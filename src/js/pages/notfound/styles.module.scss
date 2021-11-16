@@ -1,0 +1,39 @@
+.notfound{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   span{
+    font-family: 'black ops one', cursive;
+     font-size:5rem; 
+     font-weight: 600;
+     border-right:2px solid black;
+     padding-right: 1rem;
+   }
+   div{
+       padding-left: 1rem;
+       width:50%;
+      
+       
+   }
+   h1{
+    font-family: 'Roboto', sans-serif;
+     font-size:1.35rem;
+     line-height: 1.7rem;
+     margin-bottom: 1rem;
+
+   }
+
+   a{
+     font-family: 'black ops one', cursive;
+       margin-top:0.25rem;
+       display:block;
+    font-size:1.35rem;
+    font-weight: 600;
+    color: black;
+}
+a:hover{
+    border-bottom: 2px solid black;
+   }
+ 
+ }
+ 

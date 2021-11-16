@@ -1,0 +1,45 @@
+.notfound {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.notfound span {
+  font-family: 'black ops one', cursive;
+  font-size: 5rem;
+  font-weight: 600;
+  border-right: 2px solid black;
+  padding-right: 1rem;
+}
+
+.notfound div {
+  padding-left: 1rem;
+  width: 50%;
+}
+
+.notfound h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.35rem;
+  line-height: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.notfound a {
+  font-family: 'black ops one', cursive;
+  margin-top: 0.25rem;
+  display: block;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: black;
+}
+
+.notfound a:hover {
+  border-bottom: 2px solid black;
+}
+/*# sourceMappingURL=styles.module.css.map */
