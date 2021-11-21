@@ -19,13 +19,13 @@ const employeeDirectory = function(){
   function cleanUp( ){
      const employees = employeeContainer.querySelectorAll('aside') 
      employees.forEach((employee)=>{
-          employee.removeEventListener('click', onDeleteEmployee)
+          employee.removeEventListener('click', onDeleteToDoItem)
      })
   }
 
 
  // EVENT HANDLER FUNCTION FOR REMOVING AN EMPLOYEE
-  function onDeleteEmployee (e){
+  function onDeleteToDoItem (e){
         const employeeId = e.currentTarget.dataset.key
         const employee = getStore().filter((employee) => employee.id === employeeId)
         cleanUp()
@@ -33,11 +33,18 @@ const employeeDirectory = function(){
 
   }
 
-  function onEditEmployee (e) {
+  function onEditToDoItem (e) {
     const employeeId = e.currentTarget.dataset.key
     const employee = getStore().filter((employee) => employee.id === employeeId)
     cleanUp()
     Router('/editPage', employee[0])
+  }
+
+  function addNewToDoItem (e) {
+    const employeeId = e.currentTarget.dataset.key
+    const employee = getStore().filter((employee) => employee.id === employeeId)
+    cleanUp()
+    Router('/addNewItem', employee[0])
   }
 
    function render (){ 
@@ -46,8 +53,9 @@ const employeeDirectory = function(){
       // create li from the store data
       const employeeElements =  getStore().map(emp=> employee(emp))
       employeeElements.forEach(element => {        
-        element.querySelector('#delete').addEventListener('click', onDeleteEmployee)
-        element.querySelector('#edit').addEventListener('click', onEditEmployee)
+        element.querySelector('#delete').addEventListener('click', onDeleteToDoItem)
+        element.querySelector('#edit').addEventListener('click', onEditToDoItem)
+        element.querySelector('#add').addEventListener('click', addNewToDoItem)
         div.append(element)
       });
        page.append(employeeContainer)

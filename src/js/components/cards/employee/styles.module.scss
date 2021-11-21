@@ -87,3 +87,17 @@
  .it{
    background-color: #5bbdc6;
  }
+
+ .addButton {
+   display: flex;
+   justify-content: center;
+   margin-top: 1rem;
+ }
+
+ .addButton button {
+   background-color: white;
+   box-shadow: none;
+   border: none;
+   font-family: 'black ops one', cursive;
+   font-size: 1.5rem;
+ }

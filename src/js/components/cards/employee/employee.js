@@ -6,11 +6,14 @@ const employee = function ({ id, category, title, startDate, startTime, endDate,
  
   const template = `       
           <aside class="${styles.employee}" data-key="${id}">
+          
           <div class="${styles[category.toLowerCase()]} ${styles.team} ">${category}</div>
           <header>
 
              
           <h2>${title}</h2>
+          
+          
           </header>
           <ul>
              
@@ -23,7 +26,9 @@ const employee = function ({ id, category, title, startDate, startTime, endDate,
             <span></span>
             <button id="edit" data-key="${id}">edit</button>
           </footer>
-        </aside>  
+          <div class="${styles.addButton}"><button id="add" data-key="${id}">+ Add New Item</button></div>
+        </aside>
+        
   `;
   return makeElement(template);
 };
