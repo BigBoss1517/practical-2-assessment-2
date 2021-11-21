@@ -3,7 +3,7 @@
 
 
 # Director 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c9ec878e-e294-46f8-a39d-a31a18239f40/deploy-status)](https://app.netlify.com/sites/jimhortons-employee-manager/deploys)  
+[![Netlify Status](https://app.netlify.com/sites/elated-fermi-e372c3/overview)](https://app.netlify.com/sites/jimhortons-employee-manager/deploys)  
   
 <br/>
  
