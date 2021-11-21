@@ -1,4 +1,5 @@
-<img src="src/static/svg/jim-hortons.svg" width="320"/><br/>
+<h1>Webtec</h1>
+<p>To Do List Manager</p>
 
 
 # Director 
@@ -6,18 +7,18 @@
   
 <br/>
  
-## Keeping Your Staff In Touch  
-With changes in the work environment more than ever it's important to keep your staff in touch. Jim Hortons has created a simple solution to keep you and your staff in contact.  
+## Helps you manage your tasks
+Webtec to do application helps you manage your important tasks in a simple, convenient manner.
   
 You want demo the app we have it deployed [Live On Netlify](https://jimhortons-employee-manager.netlify.app/).  
 
 __Basic Features__
-You can add new employees to your contact list.
-You can remove employees from your contacts.
-You can edit existing contact information.   
+You can add new tasks to your to do list.
+You can remove tasks from your to do list.
+You can edit existing tasks.   
 
 ## Feature Release 
-In future release a company will be able to sign up and create there own company directory app. The app will allow you to add customizable employee data that your employees can manage in there own version of your company app.
+In future release users will be able to sign up and create there own task manager app. The app will allow you to add customizable list data that you can manage in your own version of your app.
 
 ## Privacy Policy
 If you are located in the European Economic Area ("EEA") or the United Kingdom ("UK"), this entire Privacy Policy applies to you. However, please see the Section titled "Additional Information for Users in the EEA and the UK.", which will provide more detail information about which rights you have regarding the processing of your personal data.  
