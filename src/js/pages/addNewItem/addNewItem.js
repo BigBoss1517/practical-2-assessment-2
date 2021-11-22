@@ -56,7 +56,7 @@ const addNewItem = function(props){
     
     let headerTemplate = `
     <section class="${styles.edit_page}">
-    <h1>Edit To Do Item</h1>
+    <h1>Add New Item</h1>
     <form>
            <section class="${styles.form_container}">
                    <section>
